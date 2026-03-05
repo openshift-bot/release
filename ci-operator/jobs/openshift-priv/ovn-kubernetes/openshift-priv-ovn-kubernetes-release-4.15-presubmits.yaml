@@ -1648,7 +1648,7 @@ presubmits:
     branches:
     - ^release-4\.15$
     - ^release-4\.15-
-    cluster: build10
+    cluster: build06
     context: ci/prow/e2e-metal-ipi-ovn-dualstack
     decorate: true
     decoration_config:
@@ -1740,7 +1740,7 @@ presubmits:
     branches:
     - ^release-4\.15$
     - ^release-4\.15-
-    cluster: build10
+    cluster: build06
     context: ci/prow/e2e-metal-ipi-ovn-ipv4
     decorate: true
     decoration_config:
@@ -1833,7 +1833,7 @@ presubmits:
     branches:
     - ^release-4\.15$
     - ^release-4\.15-
-    cluster: build10
+    cluster: build06
     context: ci/prow/e2e-metal-ipi-ovn-ipv6
     decorate: true
     decoration_config:
